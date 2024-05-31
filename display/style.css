@@ -1,0 +1,36 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    display: inline;  
+}
+a{
+    display: block;
+    margin: 20px;
+    border: dotted blue;
+}
+img{
+    width: 200px;
+    display: block;
+    margin: 20px;
+    text-align: end;
+}
+ul{
+    text-align: end;
+    margin: 20px;
+    padding: 20px;
+}
+li{
+   
+    border: 1px dashed red;
+    display: inline;
+    margin: 20px;
+
+}
+li:hover{
+    color: yellow;
+    cursor: pointer;
+}
