@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+.container{
+    border: 1px solid black;
+    
+    row-gap: 20px;
+    column-gap: 20px;
+    /* display: grid;  default for display */
+    display: grid;
+    /* grid-template-columns: 110px 210px 320px 250px; */
+    /* grid-template-columns: 1fr 1fr 1fr;     */
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-columns: repeat(4,100px) ; */
+    grid-template-rows: 100px 200px 80px;
+    /* grid auto for those who don't have a size */
+    /* grid-auto-rows: 50px; */
+    /* align-items: center; aling items alings with respect to the grid structure of the box  */
+}
+.box{
+    border: 1px solid blue;
+    padding: 12px;
+
+}
+#box-4{
+    justify-self: center;  
+    /* order: 2;  jiska order zada voh last mai chla jata hai  */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#box-10{
+    grid-column: 4/5;
+    align-self: center;
+}
